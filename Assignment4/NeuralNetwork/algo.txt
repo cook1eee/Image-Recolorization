@@ -1,0 +1,6 @@
+3 channels 
+B G R 
+Seperate the channels to B G R, (3 layers, single value/pixel)
+Matrix Multiplication  -> (pad the layers, multiply each 3x3 to RGB filters)
+Randomly assign numbers to BGR filter -> Then use loss function to adjust it 
+Hidden Layers 
